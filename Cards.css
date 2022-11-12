@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: gainsboro;
+}
+
+h1 {
+    background: turquoise;
+    color: yellow;
+    font-family: sans-serif;
+}
+
+p {
+    background: turquoise;
+    color: tomato;
+    font-family: sans-serif;
+}
+
+marquee {
+    margin-top: 20px;
+    background: turquoise;
+}
+
+.card {
+    border: 1px solid gray;
+    height: 250px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: burlywood;
+    display: inline-block;
+}
+
+.image img {
+    height: 120px;
+    width: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    background: burlywood;
+    font-family: fantasy;
+}
+
+.des {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    background: burlywood;
+}
+
+button {
+    padding: 2px;
+    font-family: arial-black;
+    text-align: center;
+    position: relative;
+    margin-left: 32px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+button a {
+    text-decoration: none;
+    background: none;
+    color: black;
+}
+
+button a:hover {
+    color: white;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    transition: .60s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 10px 5px 20px black;
+    transition: .2s;
+}
